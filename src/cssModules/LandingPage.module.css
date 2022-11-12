@@ -1,0 +1,57 @@
+.container {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("../assets/background_landing.jpg");
+  background-position: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.title {
+  font-family: "Oswald", sans-serif;
+  color: seashell;
+  font-variant: small-caps;
+}
+
+.content {
+  background-color: moccasin;
+  padding: 1rem;
+  border-radius: 2rem;
+  height: 22vh;
+  margin-top: 10vh;
+  -webkit-box-shadow: inset 8px 5px 120px 39px rgba (0, 0, 0, 0.12);
+  box-shadow: inset 8px 5px 120px 39px rgb(199, 145, 53);
+  background: linear-gradient(
+    0deg,
+    rgba(199, 53, 0, 0.1) 60%,
+    rgba(199, 53, 0, 0.1) 20%,
+    35%,
+    rgba(191, 99, 0, 0.629) 65%,
+    rgba(191, 99, 0, 0.629) 50%
+  );
+}
+
+.button {
+  background-color: rgb(186, 118, 0);
+  border-radius: 1rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 1.2rem;
+  border: 0.2rem moccasin solid;
+  margin-top: 5px;
+  color: moccasin;
+  width: 5rem;
+  height: 5rem;
+  -webkit-transition: width 1s;
+  transition: width 1s;
+}
+
+.button:hover {
+  color: rgb(186, 118, 0);
+  background-color: moccasin;
+  width: 7rem;
+  -webkit-transition: width 1s;
+  transition: width 1s;
+  cursor: pointer;
+  font-weight: bold;
+}

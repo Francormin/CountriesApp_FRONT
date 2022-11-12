@@ -1,0 +1,85 @@
+.backgroundImg {
+  background-image: url("../assets/background_details.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.bigContainer {
+  display: flex;
+  justify-content: center;
+  padding: 1.5rem;
+}
+
+.details {
+  background: linear-gradient(
+    90deg,
+    rgba(203, 22, 22, 0.9) 0%,
+    rgba(216, 58, 5, 0.9) 20%,
+    rgba(218, 165, 7, 0.9) 80%,
+    rgba(172, 201, 11, 0.9) 100%
+  );
+  border-radius: 1.5rem;
+  width: 30%;
+  margin: 1rem;
+}
+
+.detailsContainerOut {
+  color: rgb(4, 8, 87);
+  margin: 0rem 2rem 0rem 2rem;
+}
+
+.detailsContainerIn {
+  font-size: 1.2rem;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.detailsContainerIn h2 {
+  display: flex;
+  justify-content: center;
+  font-variant: small-caps;
+  font-size: 2.2rem;
+  background-color: darkcyan;
+  border-radius: 2rem;
+  padding: 0.3rem;
+}
+
+.flagImg {
+  width: 15vw;
+  height: 20vh;
+  border: 0.2rem solid black;
+  border-radius: 0.4rem;
+}
+
+.activityContainer {
+  background-color: rgb(89, 0, 0);
+  border-radius: 1.2rem;
+  color: rgb(0, 153, 170);
+  margin: 0.5rem;
+  padding: 0.1rem;
+  flex-direction: column;
+}
+
+.message {
+  color: rgb(89, 0, 0);
+  font-size: 1.2rem;
+  font-style: oblique;
+  background-color: silver;
+  border-radius: 1.5rem;
+  padding: 0.5rem;
+  margin-bottom: 1.5rem;
+  font-weight: 600;
+}
+
+.gifDiv {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+}
+
+.gif {
+  margin-top: 5rem;
+  height: 60vh;
+  width: 40vw;
+  border-radius: 4rem;
+}

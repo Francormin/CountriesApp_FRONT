@@ -1,0 +1,32 @@
+.pagination {
+  background-color: rgb(0, 29, 136);
+  border-radius: 2rem;
+  padding: 0.1rem;
+}
+
+.pagination button {
+  border-radius: 2rem;
+  margin: 0.5rem;
+  background-color: silver;
+  color: black;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.pagination button:focus {
+  border: 0.2rem solid black;
+  transition: 0.3s;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.active {
+  background-color: #1acdffcc;
+  border-radius: 2rem;
+  font-size: 0.8rem;
+}
+
+.ul {
+  padding-inline-start: 1rem;
+  padding-inline-end: 1rem;
+}

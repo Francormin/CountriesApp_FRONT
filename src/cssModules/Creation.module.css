@@ -1,0 +1,192 @@
+.container {
+  display: flex;
+  justify-content: center;
+  background-image: url("../assets/background_creation.jpg");
+  background-position: bottom;
+  background-size: cover;
+  max-height: max-content;
+  padding-bottom: 0.2rem;
+}
+
+.containerIn {
+  margin: 2rem;
+  padding: 1rem;
+  width: 40%;
+  height: max-content;
+  background: linear-gradient(
+    90deg,
+    rgba(3, 72, 29, 0.9) 0%,
+    rgba(9, 126, 9, 0.9) 20%,
+    rgba(34, 101, 3, 0.9) 80%,
+    rgba(3, 72, 29, 0.9) 100%
+  );
+  border-radius: 1.5rem;
+  color: #b2be03f3;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.title {
+  margin-top: 1rem;
+  margin-bottom: 2.8rem;
+  font-size: 2.3rem;
+  font-weight: bold;
+  color: rgb(4, 0, 86);
+  text-shadow: #b2be03f3 3px 1px, 3px 2px rgba(177, 151, 3, 0.67);
+}
+
+.chooseCountry {
+  margin-top: 1rem;
+}
+
+.creationDiv {
+  margin: 0.5rem;
+}
+
+.label {
+  font-size: 1.3rem;
+  font-family: cursive;
+}
+
+.label input {
+  border-radius: 1rem;
+  font-size: 1rem;
+  background-color: rgb(2, 8, 95);
+  color: silver;
+  padding: 0.2rem;
+  border: 0.1rem solid silver;
+  margin-left: 0.5rem;
+  text-align: center;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:focus {
+  transition: background-color 600000s 0s, color 600000s 0s;
+}
+input[data-autocompleted] {
+  background-color: transparent !important;
+}
+
+.label select {
+  border-radius: 1rem;
+  font-size: 1rem;
+  background-color: rgb(2, 8, 95);
+  color: silver;
+  padding: 0.2rem;
+  border: 0.1rem solid silver;
+  margin-left: 0.5rem;
+  text-align: center;
+}
+
+.danger {
+  color: rgb(106, 0, 0);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.2rem;
+  font-style: oblique;
+}
+
+.flagsContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 10px;
+  padding: 1rem;
+  border: 0.2rem solid rgb(2, 8, 95);
+  border-radius: 1rem;
+}
+
+.selectedCountries {
+  font-size: 1.3rem;
+  color: rgb(4, 0, 86);
+  font-family: monospace;
+  margin-top: 2rem;
+}
+
+.flagDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 0.5rem;
+}
+
+.flagButton {
+  color: rgb(22, 3, 86);
+  background-color: #b2be03f3;
+  border-radius: 1rem;
+  border: 0.1rem solid rgb(22, 3, 86);
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  padding-bottom: 0.2rem;
+  margin-right: 0.4rem;
+}
+
+.flagButton:hover {
+  color: #b2be03f3;
+  background-color: rgb(22, 3, 86);
+  border: 0.1rem solid #b2be03f3;
+  transition: 0.5s;
+}
+
+.countryFlag {
+  border-radius: 1.2rem;
+  width: 40%;
+  height: 8vh;
+}
+
+.countryName {
+  color: rgb(4, 0, 86);
+  margin-left: 0.4rem;
+  font-size: 1.1rem;
+  font-style: oblique;
+}
+
+.containerSubmit {
+  display: flex;
+  justify-content: center;
+}
+
+.submitButton:disabled {
+  background-color: #040c78e5;
+  color: silver;
+  opacity: 0.2;
+  font-size: 1.2rem;
+  border-radius: 1rem;
+  border: 0.1rem solid silver;
+  padding: 0.6rem;
+  margin-top: 1rem;
+}
+
+.submitButton:enabled {
+  background-color: silver;
+  color: #040c78e5;
+  font-size: 1.4rem;
+  font-weight: bold;
+  border-radius: 1rem;
+  border: 0.2rem solid #040c78e5;
+  padding: 0.6rem;
+  cursor: pointer;
+  transition: 0.8s;
+}
+
+.submitButton:enabled:hover {
+  background-color: #040c78e5;
+  color: silver;
+  border: 0.2rem solid silver;
+}
+
+.gifDiv {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+}
+
+.gif {
+  margin-top: 5rem;
+  height: 60vh;
+  width: 40vw;
+  border-radius: 4rem;
+}

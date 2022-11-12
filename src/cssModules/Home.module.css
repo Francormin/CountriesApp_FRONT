@@ -1,0 +1,115 @@
+.backgroundImg {
+  background-image: url("../assets/background_home.jpg");
+  background-repeat: repeat;
+  background-position: center;
+  background-position-y: 0rem;
+  background-size: contain;
+  min-height: 100%;
+}
+
+.mainSection {
+  display: flex;
+  justify-content: center;
+}
+
+.pagesSection {
+  display: flex;
+  justify-content: center;
+  padding-top: 4rem;
+}
+
+.pagesSection button {
+  border-radius: 1rem;
+  margin: 0rem 1rem;
+  cursor: pointer;
+  background-color: silver;
+}
+
+.pagesSection button:hover {
+  border: 0.2rem solid black;
+  transition: 0.3s;
+  font-weight: bold;
+}
+
+.error {
+  color: red;
+  font-style: italic;
+  font-size: 15px;
+}
+
+.countriesToShow {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.gifDiv {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  height: 100%;
+}
+
+.gif {
+  margin-top: 5rem;
+  height: 60vh;
+  width: 40vw;
+  border-radius: 4rem;
+}
+
+.searchBar {
+  display: flex;
+  justify-content: center;
+  padding-top: 3rem;
+}
+
+.searchBarInput {
+  background-color: rgb(0, 29, 136);
+  color: silver;
+  border: none;
+  border-radius: 0.5rem;
+  text-align: center;
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+
+.searchBarSubmit {
+  margin-left: 0.5rem;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  background-color: silver;
+  color: rgb(0, 29, 136);
+  border: 0.1rem solid rgb(0, 29, 136);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.searchBarSubmit:hover {
+  border: 0.2rem solid rgb(0, 29, 136);
+  font-style: italic;
+}
+
+.features {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 4rem;
+}
+
+.featuresSelect {
+  padding: 0.5rem;
+  background-color: silver;
+  color: rgb(0, 29, 136);
+  font-size: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 1rem;
+  border-color: rgb(0, 29, 136);
+}
+
+.featuresSelect:focus {
+  border: rgb(0, 29, 136) solid 0.2rem;
+}

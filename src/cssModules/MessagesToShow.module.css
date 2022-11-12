@@ -1,0 +1,55 @@
+.containerOut {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(100, 7, 0, 0.735);
+  position: fixed;
+  left: 25vw;
+  top: 20vh;
+  right: 25vw;
+  bottom: 30vh;
+  border-radius: 3rem;
+}
+
+.containerMed {
+  border-radius: 1rem;
+  position: fixed;
+  left: 30vw;
+  right: 30vw;
+  border: 0.2rem solid rgba(131, 8, 8, 0.89);
+  background-color: rgb(202, 118, 0);
+}
+
+.containerIn {
+  font-size: 1.3rem;
+  font-weight: 700;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: rgba(131, 8, 8, 0.89);
+  padding: 0.9rem;
+}
+
+.closing {
+  margin-top: 0.4rem;
+  margin-bottom: 0.4rem;
+  padding: 0.6rem;
+}
+
+.button {
+  color: rgba(131, 8, 8, 0.89);
+  background-color: rgb(202, 118, 0);
+  font-size: 1rem;
+  border-radius: 1rem;
+  border: 0.1rem solid rgba(131, 8, 8, 0.89);
+  padding: 0.6rem;
+  cursor: pointer;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: oblique;
+}
+
+.button:hover {
+  background-color: rgba(131, 8, 8, 0.89);
+  color: rgb(202, 118, 0);
+  border: 0.2rem solid rgba(131, 8, 8, 0.89);
+  transition: 0.8s;
+  font-weight: bold;
+}

@@ -1,0 +1,31 @@
+.container {
+  background-image: url("../assets/background_error.jpg");
+  background-size: cover;
+  height: 92vh;
+  display: flex;
+  background-position: center;
+  flex-direction: column;
+  align-items: center;
+  background-position-y: -1.5rem;
+}
+
+.mainMessage {
+  color: rgba(226, 0, 0, 0.775);
+  font-size: 1.5rem;
+  font-weight: bold;
+  border: 0.5rem solid rgba(226, 0, 0, 0.775);
+  padding: 0.8rem;
+  height: 1.8rem;
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.secondMessage {
+  color: rgba(226, 0, 0, 0.775);
+  font-weight: bold;
+  font-size: 1.2rem;
+  font-style: italic;
+}
