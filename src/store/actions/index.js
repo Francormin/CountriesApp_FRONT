@@ -18,7 +18,7 @@ export const EMPTY_COUNTRY_DETAILS_STATE = "EMPTY_COUNTRY_DETAILS_STATE";
 // PROMISES
 // export const getCountries = () => dispatch => {
 //    axios
-//       .get("http://localhost:3001/countries")
+//       .get("/countries")
 //       .then(countries => {
 //          dispatch({
 //             type: GET_COUNTRIES,
@@ -30,7 +30,7 @@ export const EMPTY_COUNTRY_DETAILS_STATE = "EMPTY_COUNTRY_DETAILS_STATE";
 
 export const getCountries = () => async dispatch => {
   try {
-    const countries = await axios.get("http://localhost:3001/countries");
+    const countries = await axios.get("/countries");
     dispatch({
       type: GET_COUNTRIES,
       payload: countries.data
@@ -42,7 +42,7 @@ export const getCountries = () => async dispatch => {
 
 export const getCountryDetails = idCountry => async dispatch => {
   try {
-    const countryData = await axios.get(`http://localhost:3001/countries/${idCountry}`);
+    const countryData = await axios.get(`/countries/${idCountry}`);
     dispatch({
       type: GET_COUNTRY_DETAILS,
       payload: countryData.data
@@ -56,7 +56,7 @@ export const getCountryDetails = idCountry => async dispatch => {
 
 export const getActivities = () => async dispatch => {
   try {
-    const activities = await axios.get("http://localhost:3001/activities");
+    const activities = await axios.get("/activities");
     dispatch({
       type: GET_ACTIVITIES,
       payload: activities.data
@@ -70,7 +70,7 @@ export const getActivities = () => async dispatch => {
 
 export const postActivity = activity => async dispatch => {
   try {
-    const newActivity = await axios.post("http://localhost:3001/activities", activity);
+    const newActivity = await axios.post("/activities", activity);
     dispatch({
       type: POST_ACTIVITY,
       payload: newActivity.data
@@ -84,7 +84,7 @@ export const postActivity = activity => async dispatch => {
 // export function postActivity(activity) {
 //    return function (dispatch) {
 //       return axios
-//          .post("http://localhost:3001/activities", activity)
+//          .post("/activities", activity)
 //          .then(newActivity =>
 //             dispatch({
 //                type: POST_ACTIVITY,
@@ -97,7 +97,7 @@ export const postActivity = activity => async dispatch => {
 
 export const getCountrySearch = countryNameToSearch => async dispatch => {
   try {
-    const countrySearched = await axios.get(`http://localhost:3001/countries?name=${countryNameToSearch}`);
+    const countrySearched = await axios.get(`/countries?name=${countryNameToSearch}`);
     dispatch({
       type: GET_COUNTRY_SEARCH,
       payload: countrySearched.data
