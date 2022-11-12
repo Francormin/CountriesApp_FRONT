@@ -6,10 +6,10 @@ import { Provider } from "react-redux";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import store from "./store";
-import axios from "./axios";
+import axios from "axios";
 
 // axios.defaults.baseURL = "http://localhost:3001"; // cuando querramos trabajar y/o probar nuestro proyecto de forma local
-axios.defaults.baseURL = "https://countriesappback-production.up.railway.app"; // cuando querramos pushear o actualizar nuestro deploy del front
+axios.defaults.baseURL = "https://countriesappback-production.up.railway.app/"; // cuando querramos pushear o actualizar nuestro deploy del front
 
 ReactDOM.render(
   <React.StrictMode>
